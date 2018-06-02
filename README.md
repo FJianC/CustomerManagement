@@ -20,6 +20,7 @@
 - 标签库
 - JavaWeb三层框架的分离
 - 将servlet的转发、重定向及方法进行封装，这样当设计到多个功能时不用建立多个servlet类。
+- 前端的弹窗使用js+css
 
 ## 准备
 1.导入第三方jar包以及c3p0配置文件。
@@ -51,13 +52,15 @@ IntelliJ IDEA  +  MySQL
 
 ## 项目功能截图
 ### 添加客户
- ![image](https://github.com/ButBueatiful/dotvim/raw/master/screenshots/vim-screenshot.jpg)
+ ![image](https://github.com/FJianC/CustomerManagement/blob/master/image/add.JPG)
+ 
 
 ### 查询客户
+ ![image](https://github.com/FJianC/CustomerManagement/blob/master/image/cuslist.JPG)
 
 
 ### 编辑客户
-
+ ![image](https://github.com/FJianC/CustomerManagement/blob/master/image/edit.JPG)
 
 
 
