@@ -1,0 +1,25 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="CM:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/CM_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="CM/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="CM" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/../package/c3p0-0.9.5.2/lib/c3p0-0.9.5.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../package/commons-dbutils-1.7/commons-dbutils-1.7.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../package/taglibs-standard-1.2.5/lib/taglibs-standard-impl-1.2.5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../package/jaxen-1.1-beta-6.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../package/taglibs-standard-1.2.5/lib/taglibs-standard-compat-1.2.5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../package/taglibs-standard-1.2.5/lib/taglibs-standard-jstlel-1.2.5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../package/taglibs-standard-1.2.5/lib/taglibs-standard-spec-1.2.5.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../package/mysql-connector-java-5.1.46/mysql-connector-java-5.1.46.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../package/mysql-connector-java-5.1.46/mysql-connector-java-5.1.46-bin.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../package/c3p0-0.9.5.2/lib/mchange-commons-java-0.2.11.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
